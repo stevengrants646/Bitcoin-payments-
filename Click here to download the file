@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pay with Card – Bitcoin Payment</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #f4f6f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #101820;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      padding: 2rem;
+    }
+
+    section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #101820;
+    }
+
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+      margin: 2rem 0 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pay with Card</h1>
+    <p>Securely convert your card payment into Bitcoin sent directly to my wallet</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Make a Bitcoin Payment</h2>
+      <p>
+        Use your debit or credit card below to send Bitcoin directly to my wallet using MoonPay. All payments are secure and processed in real-time.
+      </p>
+      <iframe
+        src="https://buy.moonpay.com?currencyCode=btc&walletAddress=16gJT9UX1swsn2g7VQG3zEcsN8AdrFPYCN"
+        allow="accelerometer; autoplay; camera; gyroscope; payment"
+      ></iframe>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 – Bitcoin Payments Page
+  </footer>
+</body>
+</html>
